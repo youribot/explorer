@@ -1,13 +1,10 @@
-# ETCExplorer
-
-
-Follow the project progress at: [ETC Block Explorer Development](https://trello.com/b/W3ftl57z/etc-block-explorer-development)
+# OIOBO Block Explorer
 
 ## Local installation
 
 Clone the repo
 
-`git clone https://github.com/ethereumproject/explorer`
+`git clone https://github.com/youribot/explorer.git`
 
 Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
 
@@ -30,7 +27,7 @@ Configuration file: `/tools/config.json`
 Basic settings:
 ```json
 {
-    "gethPort": 8545,
+    "gethPort": 1,
     "blocks": [ {"start": 2000000, "end": "latest"}],
     "quiet": false,
     "terminateAtExistingDB": true,
